@@ -1,10 +1,8 @@
 name: Process
 on:
   schedule:
-    - cron: "05 03 * * *"
-    - cron: "05 11 * * *"
+    - cron: "05 */3 * * *"
   workflow_dispatch:
-
 env:
   # time zone
   TZ: Asia/Shanghai
